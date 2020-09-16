@@ -1,0 +1,26 @@
+main {
+  padding-top: 80px;
+  background-color: teal;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.gallery-item {
+  object-fit: cover;
+  padding: 10px;
+}
+
+.gallery-item:nth-child(odd) {
+  flex: 1;
+}
+
+.gallery-item:nth-last-child(1) {
+  order: -1;
+}
+
+.gallery-item:nth-child(2) {
+  order: 1;
+}
