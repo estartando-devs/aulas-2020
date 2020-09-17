@@ -1,0 +1,17 @@
+/* Error: Incompatible units px and vh.
+ *    ,
+ * 10 |   min-height: 100vh - $height-header;
+ *    |               ^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss/operators.scss 10:15  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Incompatible units px and vh.\a    \2577 \a 10 \2502    min-height: 100vh - $height-header;\a    \2502                ^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss/operators.scss 10:15  root stylesheet";
+}

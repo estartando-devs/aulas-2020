@@ -1,0 +1,17 @@
+$height-header: 60px;
+
+header {
+  height: $height-header;
+  overflow: hidden;
+  background-color: #161616;
+}
+
+main {
+  min-height: 100vh - $height-header;
+  display: flex;
+  flex-wrap: wrap;
+
+  .block {
+    width: 90vh / 4;
+  }
+}

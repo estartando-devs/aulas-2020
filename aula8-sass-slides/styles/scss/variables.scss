@@ -1,0 +1,13 @@
+$primary_color: #81caa8;
+$border_radius: 4px;
+
+button {
+  width: 120px;
+  border: 2px solid $primary_color;
+  border-radius: $border_radius;
+}
+
+input {
+  border: 2px solid $primary_color;
+  border-radius: $border_radius;
+}

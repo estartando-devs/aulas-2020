@@ -1,0 +1,23 @@
+$primary_color: #81caa8;
+$border_radius: 4px;
+$text-color: #3c3c3c;
+
+%form-component {
+  color: $text-color;
+  border: 2px solid $primary_color;
+  border-radius: $border_radius;
+  padding: 8px;
+  box-shadow: #0000001a 0px 3px 4px;
+}
+
+.input-form {
+  @extend %form-component;
+  margin-bottom: 10px;
+}
+
+.button-submit {
+  @extend %form-component;
+  height: 48px;
+  outline: none;
+  width: 70%;
+}

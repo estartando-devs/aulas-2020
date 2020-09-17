@@ -1,0 +1,19 @@
+.button-submit, .input-form {
+  color: #3c3c3c;
+  border: 2px solid #81caa8;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: #0000001a 0px 3px 4px;
+}
+
+.input-form {
+  margin-bottom: 10px;
+}
+
+.button-submit {
+  height: 48px;
+  outline: none;
+  width: 70%;
+}
+
+/*# sourceMappingURL=extend.css.map */

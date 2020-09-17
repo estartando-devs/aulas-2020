@@ -1,0 +1,16 @@
+.side-menu nav {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.side-menu nav .menu-item {
+  padding: 20px;
+  margin-bottom: 3px;
+}
+.side-menu nav .menu-item a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+/*# sourceMappingURL=nested.css.map */
