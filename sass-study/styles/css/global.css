@@ -7,9 +7,10 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #161616;
+  padding: 20px;
 }
 header .logo {
-  width: 250px;
+  width: 120px;
   height: auto;
 }
 
